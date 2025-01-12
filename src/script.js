@@ -122,6 +122,7 @@ const graves = new THREE.Group()
 scene.add(graves)
 
 for (let i=0; i<30; i++){
+    //Position graves
     const angle = Math.random() * Math.PI * 2
     const radius = 3 + Math.random() * 4
     const x = Math.sin(angle) *  radius 
